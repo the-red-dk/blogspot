@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgba(248, 170, 25, 0.596);
+}
+
+.blog {
+    align-items: center;
+}
+
+* {
+    font-family: Gilam;
+    cursor: url("images/cursor.svg"), auto;
+}
+
+nav {
+    border-bottom: solid black 2px;
+}
+
+
+ h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Always in my heart";
+}
+
+.box {
+    width: 100%;
+    height: 90%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    transition: 0.1s;
+}
+.box:hover {
+    transform: translate(0px, -3px);
+    cursor: url("images/pointer.svg"), auto;
+}
+
+
+.shelf {
+    height: 650px;
+    width: 550px;
+    font-family: "Script Regular";
+}
+
+.spottext {
+    background-color: rgb(236, 113, 26);
+    
+}
+.spott {
+    background-color: rgb(236, 113, 26);
+    /* height: 300px; */
+        
+}
+
+
+@media screen and (max-width: 800px) {
+    .shelf {
+        margin-bottom: 50px;
+    }
+}
